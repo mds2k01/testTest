@@ -37,7 +37,7 @@
 
 - (void) changeText {
     
-    lblText.text = @"Mudando texto por 5 s";
+    lblText1.text = @"Mudando texto por 5 s";
     
     [self performSelector:@selector(originalText) withObject:nil afterDelay:5.0];
 }
