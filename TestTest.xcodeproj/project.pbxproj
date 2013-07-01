@@ -16,6 +16,8 @@
 		C483A0C817821ED200EA67FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C483A0C717821ED200EA67FC /* Default.png */; };
 		C483A0CA17821ED200EA67FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C483A0C917821ED200EA67FC /* Default@2x.png */; };
 		C483A0CC17821ED200EA67FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C483A0CB17821ED200EA67FC /* Default-568h@2x.png */; };
+		C483A0D517821EE900EA67FC /* TSTSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C483A0D317821EE900EA67FC /* TSTSplashViewController.m */; };
+		C483A0D617821EE900EA67FC /* TSTSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C483A0D417821EE900EA67FC /* TSTSplashViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		C483A0C717821ED200EA67FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C483A0C917821ED200EA67FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C483A0CB17821ED200EA67FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C483A0D217821EE900EA67FC /* TSTSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTSplashViewController.h; sourceTree = "<group>"; };
+		C483A0D317821EE900EA67FC /* TSTSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTSplashViewController.m; sourceTree = "<group>"; };
+		C483A0D417821EE900EA67FC /* TSTSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSTSplashViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				C483A0C417821ED200EA67FC /* TSTAppDelegate.h */,
 				C483A0C517821ED200EA67FC /* TSTAppDelegate.m */,
+				C483A0D217821EE900EA67FC /* TSTSplashViewController.h */,
+				C483A0D317821EE900EA67FC /* TSTSplashViewController.m */,
+				C483A0D417821EE900EA67FC /* TSTSplashViewController.xib */,
 				C483A0BC17821ED200EA67FC /* Supporting Files */,
 			);
 			path = TestTest;
@@ -155,6 +163,7 @@
 				C483A0C817821ED200EA67FC /* Default.png in Resources */,
 				C483A0CA17821ED200EA67FC /* Default@2x.png in Resources */,
 				C483A0CC17821ED200EA67FC /* Default-568h@2x.png in Resources */,
+				C483A0D617821EE900EA67FC /* TSTSplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				C483A0C217821ED200EA67FC /* main.m in Sources */,
 				C483A0C617821ED200EA67FC /* TSTAppDelegate.m in Sources */,
+				C483A0D517821EE900EA67FC /* TSTSplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

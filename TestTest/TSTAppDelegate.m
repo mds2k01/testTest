@@ -7,6 +7,7 @@
 //
 
 #import "TSTAppDelegate.h"
+#import "TSTSplashViewController.h"
 
 @implementation TSTAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    _viewController = [[TSTSplashViewController alloc] initWithNibName:@"TSTSplashViewController" bundle:nil];
+    
+    //Exclusivo para iOS 6 ou >
+    self.window.rootViewController = _viewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

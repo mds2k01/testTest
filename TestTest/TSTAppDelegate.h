@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class TSTSplashViewController;
+
 @interface TSTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIViewController *viewController;
 
 @end
